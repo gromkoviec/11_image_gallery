@@ -25,13 +25,13 @@ function displayImage(imgBig) {
 btn.onclick = function () {   
   var state =  btn.getAttribute('class');
    if(state === 'dark') {    
-   btn.setAttribute('class', 'light');
-   btn.textContent = 'Lighten';
-   overlay.style.backgroundColor = "rgba(0,0,0,0.5)";  
+     btn.setAttribute('class', 'light');
+     btn.textContent = 'Lighten';
+     overlay.style.backgroundColor = "rgba(0,0,0,0.5)";  
    } else {
-   btn.setAttribute('class', 'dark');
-   btn.textContent = 'Darken';
-   overlay.style.backgroundColor = "rgba(0,0,0,0)";      
+     btn.setAttribute('class', 'dark');
+     btn.textContent = 'Darken';
+     overlay.style.backgroundColor = "rgba(0,0,0,0)";      
    }
 }
 
